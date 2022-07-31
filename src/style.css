@@ -159,6 +159,26 @@ h3:first-child{
 }
 
 
+/* Media query */
+
+@media screen and (min-width:1440px) {
+    .card-container{
+        flex-direction: row;
+        align-items:stretch;
+    }
+
+    .card-container .card-content-container{
+        border-radius: 0 15px 15px 0;
+    }
+
+    .card-container img{
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px 0 0 15px;
+    }
+
+}
+
 
 
 
